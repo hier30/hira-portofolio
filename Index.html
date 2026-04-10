@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lutfiya Fakhira — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ───── NAV ───── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">LF<span class="dot">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#experience">Pengalaman</a></li>
+        <li><a href="#skills">Skill</a></li>
+        <li><a href="#certifications">Sertifikat</a></li>
+        <li><a href="#contact" class="nav-cta">Kontak</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">Tentang</a>
+      <a href="#projects">Proyek</a>
+      <a href="#experience">Pengalaman</a>
+      <a href="#skills">Skill</a>
+      <a href="#certifications">Sertifikat</a>
+      <a href="#contact">Kontak</a>
+    </div>
+  </nav>
+
+  <!-- ───── HERO ───── -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow">Halo, saya</p>
+        <h1 class="hero-name">Lutfiya<br><span class="hero-name-accent">Fakhira</span></h1>
+        <p class="hero-role">Software Engineering Student<br>
+          <span class="hero-role-sub">Teknik Informatika · Universitas Lampung · IPK 3,81</span>
+        </p>
+        <p class="hero-desc">
+          Berfokus pada pengembangan web, IoT, dan transformasi digital. Bersemangat berkontribusi pada ekosistem teknologi pemerintahan Indonesia.
+        </p>
+        <div class="hero-badges">
+          <span class="badge badge-blue">Web Development</span>
+          <span class="badge badge-green">IoT</span>
+          <span class="badge badge-orange">UI/UX</span>
+          <span class="badge badge-pink">Networking</span>
+        </div>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">Lihat Proyek</a>
+          <a href="#contact" class="btn-outline">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="photo-ring"></div>
+        <div class="photo-ring-2"></div>
+        <img src="/img/poto id card.jpg" alt="Lutfiya Fakhira" class="hero-photo" id="heroPhoto" />
+        <div class="photo-decoration">
+          <div class="deco-card deco-card-1">
+            <span class="deco-icon">🎓</span>
+            <span>IPK 3,81</span>
+          </div>
+          <div class="deco-card deco-card-2">
+            <span class="deco-icon">💻</span>
+            <span>3 Proyek Live</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ───── ABOUT ───── -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Tentang Saya</span>
+        <h2 class="section-title">Kenalan dulu, yuk!</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Saya adalah mahasiswa <strong>Teknik Informatika semester 6</strong> di Universitas Lampung yang berfokus pada bidang Rekayasa Perangkat Lunak. Dengan IPK 3,81, saya aktif mengerjakan proyek nyata mulai dari website UMKM, company profile, hingga sistem informasi laboratorium.
+          </p>
+          <p>
+            Pengalaman mengajar di Educourse.id mengajarkan saya untuk menyampaikan konsep teknologi secara sederhana dan interaktif. Saya percaya bahwa teknologi harusnya bisa diakses dan dirasakan manfaatnya oleh semua kalangan — terutama dalam konteks transformasi digital Indonesia.
+          </p>
+          <p>
+            Saat ini saya sedang mencari kesempatan <strong>kerja praktik / magang</strong> untuk berkontribusi langsung pada proyek nyata di lingkungan profesional.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Proyek Live</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">3,81</span>
+            <span class="stat-label">IPK</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">10+</span>
+            <span class="stat-label">Sekolah Diajar</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">2+</span>
+            <span class="stat-label">Tahun Organisasi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── PROJECTS ───── -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Proyek</span>
+        <h2 class="section-title">Yang Sudah Saya Buat</h2>
+        <p class="section-sub">Semua proyek ini live dan bisa langsung dikunjungi.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card project-featured">
+          <div class="project-img-wrap">
+            <div class="project-mockup" style="--bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%)">
+              <div class="mockup-browser">
+                <div class="browser-dots"><span></span><span></span><span></span></div>
+                <div class="browser-url">umkm-langkapura-kkn26.netlify.app</div>
+                <div class="browser-content">
+                  <div class="mock-hero" style="background: linear-gradient(135deg,#7c3aed,#4f46e5)">
+                    <div class="mock-text-block"></div>
+                    <div class="mock-text-block short"></div>
+                  </div>
+                  <div class="mock-cards">
+                    <div class="mock-card"></div>
+                    <div class="mock-card"></div>
+                    <div class="mock-card"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-year">2026 · KKN Project</span>
+            <h3>Website UMKM Langkapura</h3>
+            <p>Website profil UMKM sebagai media promosi digital berbasis komunitas. Didesain responsif dan user-friendly, di-deploy menggunakan Netlify.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Netlify</span>
+            </div>
+            <a href="https://umkm-langkapura-kkn26.netlify.app/" target="_blank" class="project-link">
+              Kunjungi Website <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <div class="project-mockup" style="--bg: linear-gradient(135deg, #f093fb 0%, #f5576c 100%)">
+              <div class="mockup-browser">
+                <div class="browser-dots"><span></span><span></span><span></span></div>
+                <div class="browser-url">labtdweb.netlify.app</div>
+                <div class="browser-content">
+                  <div class="mock-hero" style="background: linear-gradient(135deg,#e91e63,#9c27b0)">
+                    <div class="mock-text-block"></div>
+                    <div class="mock-text-block short"></div>
+                  </div>
+                  <div class="mock-cards">
+                    <div class="mock-card"></div>
+                    <div class="mock-card"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-year">2025 · Akademik</span>
+            <h3>Website Laboratorium Teknik Digital</h3>
+            <p>Website informasi laboratorium untuk keperluan akademik internal Universitas Lampung. Dikelola struktur navigasi dan halaman untuk meningkatkan usability.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>Trello</span><span>Netlify</span>
+            </div>
+            <a href="https://labtdweb.netlify.app/" target="_blank" class="project-link">
+              Kunjungi Website <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <div class="project-mockup" style="--bg: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)">
+              <div class="mockup-browser">
+                <div class="browser-dots"><span></span><span></span><span></span></div>
+                <div class="browser-url">sman15bekasi-unila.netlify.app</div>
+                <div class="browser-content">
+                  <div class="mock-hero" style="background: linear-gradient(135deg,#0288d1,#26c6da)">
+                    <div class="mock-text-block"></div>
+                    <div class="mock-text-block short"></div>
+                  </div>
+                  <div class="mock-cards">
+                    <div class="mock-card"></div>
+                    <div class="mock-card"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-year">2024 · Company Profile</span>
+            <h3>Website Company Profile SMAN 15 Bekasi</h3>
+            <p>Website profil sekolah sebagai media informasi publik yang aksesibel. UI sederhana dan mudah digunakan oleh berbagai kalangan.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Netlify</span>
+            </div>
+            <a href="https://sman15bekasi-unila.netlify.app/" target="_blank" class="project-link">
+              Kunjungi Website <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── EXPERIENCE ───── -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Pengalaman</span>
+        <h2 class="section-title">Perjalanan Saya</h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot" style="--dot-color: #f59e0b"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Agt 2025 – Des 2025</span>
+            <h3>STEAM Teacher</h3>
+            <span class="tl-company">Educourse.id · Magang</span>
+            <ul>
+              <li>Mengajar mata pelajaran STEAM untuk siswa SD kelas 1–6 di 5+ sekolah</li>
+              <li>Membimbing ekstrakurikuler teknologi di jenjang SD, SMP, dan SMA</li>
+              <li>Melatih siswa dalam berpikir logis, problem solving, dan computational thinking</li>
+              <li>Menyampaikan konsep teknologi secara interaktif sesuai jenjang usia</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot" style="--dot-color: #10b981"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Feb 2025 – Jun 2025</span>
+            <h3>Penanggung Jawab Praktikum</h3>
+            <span class="tl-company">Laboratorium Teknik Digital · Universitas Lampung</span>
+            <ul>
+              <li>Membantu mahasiswa junior dalam debugging dan memahami rangkaian logika digital</li>
+              <li>Bertanggung jawab atas persiapan praktikum hingga penilaian akhir</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot" style="--dot-color: #6366f1"></div>
+          <div class="timeline-content">
+            <span class="tl-date">Feb 2023 – Des 2025</span>
+            <h3>Sie Kestari & Bendahara Pelaksana</h3>
+            <span class="tl-company">HIMATRO · Universitas Lampung</span>
+            <ul>
+              <li>Mengelola administrasi dan surat-menyurat organisasi</li>
+              <li>Mengelola rencana dan realisasi anggaran kegiatan visitasi perusahaan</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot" style="--dot-color: #ec4899"></div>
+          <div class="timeline-content">
+            <span class="tl-date">2023 – Sekarang</span>
+            <h3>Mahasiswa S1 Teknik Informatika</h3>
+            <span class="tl-company">Universitas Lampung · IPK 3,81</span>
+            <ul>
+              <li>Aktif mengikuti praktikum berbasis jaringan, pemrograman, dan sistem informasi</li>
+              <li>Mata kuliah relevan: Pemrograman Web, RPL, Struktur Data, Jaringan Komputer</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── SKILLS ───── -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Skill</span>
+        <h2 class="section-title">Apa yang Bisa Saya Lakukan</h2>
+      </div>
+
+      <div class="skills-wrapper">
+        <div class="skills-group">
+          <h3 class="skills-group-title">
+            <span class="sg-icon">⚡</span> Technical Skills
+          </h3>
+          <div class="skill-pills">
+            <span class="skill-pill pill-blue">HTML</span>
+            <span class="skill-pill pill-blue">CSS</span>
+            <span class="skill-pill pill-blue">JavaScript</span>
+            <span class="skill-pill pill-blue">Web Development</span>
+            <span class="skill-pill pill-green">Git & GitHub</span>
+            <span class="skill-pill pill-green">Deployment (Netlify)</span>
+            <span class="skill-pill pill-orange">Arduino / IoT</span>
+            <span class="skill-pill pill-orange">Basic Networking (Cisco)</span>
+            <span class="skill-pill pill-pink">Microsoft Excel</span>
+            <span class="skill-pill pill-purple">Scratch Programming</span>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3 class="skills-group-title">
+            <span class="sg-icon">🛠️</span> Tools & Platform
+          </h3>
+          <div class="skill-pills">
+            <span class="skill-pill pill-blue">Visual Studio Code</span>
+            <span class="skill-pill pill-green">GitHub</span>
+            <span class="skill-pill pill-orange">Trello</span>
+            <span class="skill-pill pill-pink">Jira</span>
+            <span class="skill-pill pill-purple">Netlify</span>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3 class="skills-group-title">
+            <span class="sg-icon">🌟</span> Soft Skills
+          </h3>
+          <div class="skill-pills">
+            <span class="skill-pill pill-blue">Problem Solving</span>
+            <span class="skill-pill pill-green">Komunikasi Tim</span>
+            <span class="skill-pill pill-orange">Public Speaking</span>
+            <span class="skill-pill pill-pink">MC & Moderator</span>
+            <span class="skill-pill pill-purple">Bahasa Inggris Aktif</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── CERTIFICATIONS ───── -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Sertifikat</span>
+        <h2 class="section-title">Pencapaian & Sertifikasi</h2>
+        <p class="section-sub">Sertifikat dari pelatihan, organisasi, dan magang.</p>
+      </div>
+
+      <div class="cert-tabs">
+        <button class="cert-tab active" data-tab="training">Pelatihan</button>
+        <button class="cert-tab" data-tab="org">Organisasi</button>
+        <button class="cert-tab" data-tab="internship">Magang</button>
+      </div>
+
+      <div class="cert-grid" id="certGrid">
+
+        <!-- PELATIHAN -->
+        <div class="cert-card-new" data-category="training">
+          <a href="https://drive.google.com/file/d/1hQXN6e36UTkjeqKT7-LxXA2H7rEmrQKM/view?usp=sharing" target="_blank" class="cert-thumb-link">
+            <div class="cert-thumb">
+              <img src="https://drive.google.com/thumbnail?id=1hQXN6e36UTkjeqKT7-LxXA2H7rEmrQKM&sz=w400" alt="Cisco Certificate" loading="lazy" />
+              <div class="cert-thumb-overlay"><span>🔍 Lihat</span></div>
+            </div>
+          </a>
+          <div class="cert-body">
+            <div class="cert-body-top">
+              <span class="cert-badge-new" style="--cert-color:#6366f1">Networking</span>
+              <span class="cert-issuer-new">Cisco</span>
+            </div>
+            <h4>Cisco Networking Academy</h4>
+            <p>Dasar-Dasar Jaringan Komputer</p>
+            <a href="https://drive.google.com/file/d/1hQXN6e36UTkjeqKT7-LxXA2H7rEmrQKM/view?usp=sharing" target="_blank" class="cert-btn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Lihat Sertifikat
+            </a>
+          </div>
+        </div>
+
+        <div class="cert-card-new" data-category="training">
+          <a href="https://drive.google.com/file/d/1wcQqXKws-DjPuSo5B6D6GmEaad3DE1f9/view?usp=sharing" target="_blank" class="cert-thumb-link">
+            <div class="cert-thumb">
+              <img src="https://drive.google.com/thumbnail?id=1wcQqXKws-DjPuSo5B6D6GmEaad3DE1f9&sz=w400" alt="Dicoding Git Certificate" loading="lazy" />
+              <div class="cert-thumb-overlay"><span>🔍 Lihat</span></div>
+            </div>
+          </a>
+          <div class="cert-body">
+            <div class="cert-body-top">
+              <span class="cert-badge-new" style="--cert-color:#10b981">Web Dev</span>
+              <span class="cert-issuer-new">Dicoding</span>
+            </div>
+            <h4>Belajar Git dengan GitHub</h4>
+            <p>Version control & kolaborasi kode secara profesional</p>
+            <a href="https://drive.google.com/file/d/1wcQqXKws-DjPuSo5B6D6GmEaad3DE1f9/view?usp=sharing" target="_blank" class="cert-btn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Lihat Sertifikat
+            </a>
+          </div>
+        </div>
+
+        <div class="cert-card-new" data-category="training">
+          <a href="https://drive.google.com/file/d/1eDN4oW97yku9whmjtRxAsGta_i4E13iw/view?usp=sharing" target="_blank" class="cert-thumb-link">
+            <div class="cert-thumb">
+              <img src="https://drive.google.com/thumbnail?id=1eDN4oW97yku9whmjtRxAsGta_i4E13iw&sz=w400" alt="Dicoding Dasar Web Certificate" loading="lazy" />
+              <div class="cert-thumb-overlay"><span>🔍 Lihat</span></div>
+            </div>
+          </a>
+          <div class="cert-body">
+            <div class="cert-body-top">
+              <span class="cert-badge-new" style="--cert-color:#f59e0b">Programming</span>
+              <span class="cert-issuer-new">Dicoding</span>
+            </div>
+            <h4>Belajar Dasar Pemrograman Web</h4>
+            <p>Fondasi HTML, CSS, dan JavaScript untuk web modern</p>
+            <a href="https://drive.google.com/file/d/1eDN4oW97yku9whmjtRxAsGta_i4E13iw/view?usp=sharing" target="_blank" class="cert-btn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Lihat Sertifikat
+            </a>
+          </div>
+        </div>
+
+        <!-- ORGANISASI -->
+        <div class="cert-card-new" data-category="org" style="display:none">
+          <a href="https://drive.google.com/file/d/1_4btEmmufKDezjHHDZF7mwBU1NWXBNbH/view?usp=sharing" target="_blank" class="cert-thumb-link">
+            <div class="cert-thumb">
+              <img src="https://drive.google.com/thumbnail?id=1_4btEmmufKDezjHHDZF7mwBU1NWXBNbH&sz=w400" alt="HIMATRO Certificate" loading="lazy" />
+              <div class="cert-thumb-overlay"><span>🔍 Lihat</span></div>
+            </div>
+          </a>
+          <div class="cert-body">
+            <div class="cert-body-top">
+              <span class="cert-badge-new" style="--cert-color:#ec4899">Organisasi</span>
+              <span class="cert-issuer-new">HIMATRO · Unila</span>
+            </div>
+            <h4>HIMATRO — Semua Peran</h4>
+            <p>Sie Kestari, Bendahara Pelaksana & berbagai peran organisasi 2023–2025</p>
+            <a href="https://drive.google.com/file/d/1_4btEmmufKDezjHHDZF7mwBU1NWXBNbH/view?usp=sharing" target="_blank" class="cert-btn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Lihat Semua Sertifikat
+            </a>
+          </div>
+        </div>
+
+        <!-- MAGANG -->
+        <div class="cert-card-new" data-category="internship" style="display:none">
+          <a href="https://drive.google.com/file/d/11QInB4nGbI711R9P93fvEk1K6h-rXCdI/view?usp=sharing" target="_blank" class="cert-thumb-link">
+            <div class="cert-thumb">
+              <img src="https://drive.google.com/thumbnail?id=11QInB4nGbI711R9P93fvEk1K6h-rXCdI&sz=w400" alt="Magang Berdampak Certificate" loading="lazy" />
+              <div class="cert-thumb-overlay"><span>🔍 Lihat</span></div>
+            </div>
+          </a>
+          <div class="cert-body">
+            <div class="cert-body-top">
+              <span class="cert-badge-new" style="--cert-color:#f59e0b">Magang</span>
+              <span class="cert-issuer-new">Educourse.id</span>
+            </div>
+            <h4>Sertifikat Magang Berdampak</h4>
+            <p>STEAM Teacher — Mengajar di 5+ sekolah, Agt–Des 2025</p>
+            <a href="https://drive.google.com/file/d/11QInB4nGbI711R9P93fvEk1K6h-rXCdI/view?usp=sharing" target="_blank" class="cert-btn">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Lihat Sertifikat
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="cert-note">💡 Klik thumbnail atau tombol untuk membuka sertifikat di Google Drive.</p>
+    </div>
+  </section>
+
+  <!-- ───── CONTACT ───── -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Kontak</span>
+        <h2 class="section-title">Mari Terhubung!</h2>
+        <p class="section-sub">Terbuka untuk peluang magang, kerja praktik, atau kolaborasi proyek.</p>
+      </div>
+
+      <div class="contact-grid">
+        <a href="mailto:lutfiyafakhiraa@gmail.com" class="contact-card">
+          <span class="contact-icon">
+            <img src="/img/Gmail_icon_(2020).svg.png" width="40" height="40" style="border-radius:50%" alt="Gmail" />
+          </span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">lutfiyafakhiraa@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/lutfiya-fakhira" target="_blank" class="contact-card">
+          <span class="contact-icon">
+            <img src="/img/linkedin.png" width="40" height="40" style="border-radius:50%" alt="Linkedin" />
+          </span>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">lutfiya-fakhira</span>
+        </a>
+        <a href="tel:081388496288" class="contact-card">
+          <span class="contact-icon">
+            <img src="/img/wa.png" width="40" height="40" style="border-radius:50%" alt="WhatsApp" />
+          </span>
+          <span class="contact-label">WhatsApp / Telepon</span>
+          <span class="contact-value">081388496288</span>
+        </a>
+        <a href="https://github.com/" target="_blank" class="contact-card">
+          <span class="contact-icon">
+            <img src="https://github.com/hier30.png" width="40" height="40" style="border-radius:50%" alt="GitHub" />
+          </span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">@lutfiyafakhira</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── FOOTER ───── -->
+  <footer>
+    <div class="container">
+      <p>Dibuat dengan oleh <strong>Lutfiya Fakhira</strong> · 2026</p>
+      <p class="footer-sub">Teknik Informatika · Universitas Lampung</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
