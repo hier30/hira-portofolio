@@ -87,7 +87,7 @@ heroPhoto.addEventListener('error', () => {
 /* ── TYPED GREETING ── */
 const eyebrow = document.querySelector('.hero-eyebrow');
 if (eyebrow) {
-  const texts = ['👋 Halo, saya', '👋 Hi, I\'m', '👋 Halo, saya'];
+  const texts = ['Halo, saya', ' Hi, I\'m', ' Halo, saya'];
   let idx = 0;
   setInterval(() => {
     idx = (idx + 1) % texts.length;
@@ -106,3 +106,4 @@ if (eyebrow) {
 const style = document.createElement('style');
 style.textContent = `.nav-links a.active { color: var(--blue) !important; background: var(--blue-lt); }`;
 document.head.appendChild(style);
+
